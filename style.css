@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+main {
+    background-color: antiquewhite;
+    height: 100vh;
+
+}
+
+
+aside {
+    background-color: blue;
+}
+
+footer {
+    background-color: black;
+}
+
+#special-issue {
+    height: 200px;
+    display: block;
+}
+
+
+#special-issue {
+    display: block;
+    position: relative;
+    background-color: #ff0141;
+    width: 100%;
+    height: auto;
+}
+
+#special-issue a {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1920px;
+}
+
+#special-issue a {
+    width: 100%;
+    height: 140px;
+    background-image: url(https://www.sport24.gr/img/app/9632373/0/o/0/0/f4_Fasa_360_new.png);
+}
+
+@media (min-width: 768px) {
+    #special-issue a {
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        background-image: url(https://www.sport24.gr/img/app/9628974/0/o/0/0/F4_Fasa_768.jpg);
+    }
+}
+
+@media (min-width: 1024px) {
+    #special-issue a {
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        background-image: url(https://www.sport24.gr/img/app/9628976/0/o/0/0/F4_Fasa_1024.jpg);
+    }
+}
+
+@media (min-width: 1280px) {
+    #special-issue a {
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-image: url(https://www.sport24.gr/img/app/9628977/0/o/0/0/F4_Fasa_1280.jpg);
+    }
+}
+
+@media (min-width: 1366px) {
+    #special-issue a {
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-image: url(https://www.sport24.gr/img/app/9628979/0/o/0/0/F4_Fasa_1366.jpg;)
+    }
+}
+
+@media (min-width: 1440px) {
+    #special-issue a {
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-image: url(https://www.sport24.gr/img/app/9628979/0/o/0/0/F4_Fasa_1366.jpg);
+    }
+}
+
+@media (min-width: 1920px) {
+    #special-issue a {
+        width: 100%;
+        height: 340px;
+        background-size: cover;
+        background-image: url(https://www.sport24.gr/img/app/9628980/0/o/0/0/F4-BEOGRAD_FASA_1920.jpg);
+    }
+}
