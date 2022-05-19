@@ -3,6 +3,21 @@
     padding: 0%;
 }
 
+nav {
+    background-color: rgb(7, 7, 90);
+}
+
+a {
+   color: aliceblue;
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+
+
+
 main {
     background-color: antiquewhite;
     height: 100vh;
@@ -11,7 +26,7 @@ main {
 
 
 aside {
-    background-color: blue;
+    background-color: rgb(136, 136, 231);
 }
 
 footer {

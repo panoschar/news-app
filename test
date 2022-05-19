@@ -16,3 +16,23 @@ fetch(`https://newsapi.org/v2/everything?q=football&apiKey=75aee15d7fea48038aee8
             
         };
         
+
+
+        function getNews() {
+ 
+            fetch(`https://newsapi.org/v2/everything?q=football&apiKey=75aee15d7fea48038aee8d5dd15f8657`)
+          
+        .then((response) => response.json())
+        .then(data => console.log(data.articles));
+            };
+            getNews()
+
+            
+             displayPosts();
+
+
+
+             for (let i = 0; i < data.length; i++) {
+                document.getElementById('main-news').innerHTML  += <div></div>
+
+            }
