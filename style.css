@@ -20,7 +20,7 @@ a {
 
 main {
     background-color: antiquewhite;
-    height: 100vh;
+    height: 100%;
 
 }
 
@@ -117,3 +117,8 @@ footer {
         background-image: url(https://www.sport24.gr/img/app/9628980/0/o/0/0/F4-BEOGRAD_FASA_1920.jpg);
     }
 }
+
+.footer-menu__menu-container {
+    background: linear-gradient(0deg, #90113d,#0f253a);
+}
+    
