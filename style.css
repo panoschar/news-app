@@ -8,26 +8,22 @@ nav {
 }
 
 a {
-   color: aliceblue;
+    color: aliceblue;
 }
 
 .nav-link {
     color: aliceblue;
 }
 
-
-
-
 main {
-    background-color: antiquewhite;
     height: 100%;
-
 }
 
-
-aside {
-    background-color: rgb(136, 136, 231);
+#main-news {
+    margin: 20px 20px 20px 20px;
+    width: 95%;
 }
+
 
 footer {
     background-color: black;
@@ -38,13 +34,13 @@ footer {
     display: block;
 }
 
-
 #special-issue {
     display: block;
     position: relative;
     background-color: #ff0141;
     width: 100%;
     height: auto;
+    border: 0.5px solid red;
 }
 
 #special-issue a {
@@ -119,6 +115,6 @@ footer {
 }
 
 .footer-menu__menu-container {
-    background: linear-gradient(0deg, #90113d,#0f253a);
+    background: linear-gradient(0deg, #90113d, #0f253a);
 }
-    
+
